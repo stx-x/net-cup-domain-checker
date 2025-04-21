@@ -19,8 +19,8 @@
 只需克隆此仓库：
 
 ```bash
-git clone https://github.com/yourusername/li-domain-scanner.git
-cd li-domain-scanner
+git clone https://github.com/stx-x/net-cup-domain-checker
+cd net-cup-domain-checker
 ```
 ## 查看帮助 这个比下面的准
 
