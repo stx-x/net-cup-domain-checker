@@ -25,13 +25,13 @@ cd net-cup-domain-checker
 ## 查看帮助 这个比下面的准
 
 ```bash
-python main.py -h
+python3 main.py -h
 ```
 
 ## 使用方法
 
 ```bash
-python main.py -l 长度 -c 字符集 -m 方法1 [方法2 ...] -o results.txt
+python3 main.py -l 长度 -c 字符集 -m 方法1 [方法2 ...] -o results.txt
 ```
 
 ### 必需参数
@@ -65,22 +65,22 @@ python main.py -l 长度 -c 字符集 -m 方法1 [方法2 ...] -o results.txt
 
 ### 扫描所有3位数字域名
 ```bash
-python main.py -l 3 -c digits -m all --live-log log.txt
+python3 main.py -l 3 -c digits -m all --live-log log.txt
 ```
 
 ### 扫描包含至少3个连续相同字母的5位域名
 ```bash
-python main.py -l 5 -c letters -m repeats --min-repeats 3 --live-log log.txt
+python3 main.py -l 5 -c letters -m repeats --min-repeats 3 --live-log log.txt
 ```
 
 ### 从字典和拼音两个来源扫描4位域名
 ```bash
-python main.py -l 4 -c alnum -m dict pinyin --pinyin-dict-file pinyin.txt --live-log log.txt
+python3 main.py -l 4 -c alnum -m dict pinyin --pinyin-dict-file pinyin.txt --live-log log.txt
 ```
 
 ### 使用详细模式并指定输出文件
 ```bash
-python main.py -l 3 -c alnum-hyphen -m all -v -o results.txt
+python3 main.py -l 3 -c alnum-hyphen -m all -v -o results.txt
 ```
 
 ## 注意事项
