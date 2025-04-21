@@ -63,6 +63,11 @@ python3 main.py -l 长度 -c 字符集 -m 方法1 [方法2 ...] -o results.txt
 
 ## 示例
 
+### 扫描所有2位名
+```bash
+python3 main.py -l 2 -c alnum-hyphen -m all -v --live-log log.txt
+```
+
 ### 扫描所有3位数字域名
 ```bash
 python3 main.py -l 3 -c digits -m all --live-log log.txt
