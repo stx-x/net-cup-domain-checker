@@ -1,3 +1,5 @@
+# 用另外一个，更通用更完善：[domain-scanner-4-nodeseeker](https://github.com/stx-x/domain-scanner-4-nodeseeker)
+
 # .li 域名可用性扫描工具
 
 这是一个灵活的 .li 域名可用性扫描工具，可以根据用户定义的条件组合扫描可注册的 .li 域名。
